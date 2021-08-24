@@ -1,0 +1,24 @@
+GET /api/movies
+// Listado de películas
+Body
+Respuesta [{},{}]
+
+GET /api/movies/1
+//Película con el id 1
+Body
+Respuesta {}
+
+POST /api/movies
+//Crear una película
+Body {}
+Respuesta {}
+
+PUT /api/movies/1
+//Actualizar película id 1
+Body {}
+Respuesta {}
+
+DELETE /api/movies/1
+//BOrrar pelícual id 1
+Body //204
+Respuesta 
